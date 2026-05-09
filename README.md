@@ -71,21 +71,25 @@ int a, b, c;
 };  
 vector<Edge> edges;
 ```
+---
+
+# 4. Graph Examples
+
+## Undirected Graph
+
+![Undirected Graph](images/graph_neo.png)
 
 ---
 
-# 4. Graph examples
+## Directed Graph
 
-Undirected graph:
+![Directed Graph](images/graph_ori.png)
 
-![undirected graph](images/graph_neo.png)
+---
 
-Directed graph:
+## Weighted Graph
 
-![directed graph](images/graph_ori.png)
-
-Weighted graph:
-![dir gp](images/graph_cost.png)
+![Weighted Graph](images/graph_cost.png)
 
 ---
 
