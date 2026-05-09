@@ -86,6 +86,7 @@ Directed graph:
 
 Weighted graph:
 ![dir gp](images/graph_cost.png)
+
 ---
 
 # 5. BFS (Breadth First Search)
@@ -519,7 +520,9 @@ return false;
 }
 ```
 Complexity:
-$$  
-O(N!)  
+
 $$
-(worst-case exponential backtracking)
+O(N!)
+$$
+
+Worst-case exponential backtracking.
