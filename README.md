@@ -1,4 +1,4 @@
-# Graph Theory – Complete Guide
+# Graph Theory 
 
 # 1. Formal Definition of a Graph
 
@@ -84,6 +84,8 @@ Directed graph:
 
 ![directed graph](images/graph_ori.png)
 
+Weighted graph:
+![dir gp](images/graph_cost.png)
 ---
 
 # 5. BFS (Breadth First Search)
