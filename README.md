@@ -341,7 +341,7 @@ Equivalently:
   
 ## How to check if a graph is bipartite  
   
-### Idea 1: Graph coloring (DFS/BFS)  
+### Graph coloring (DFS/BFS)  
   
 We assign one of two colors to each node while traversing the graph:  
 - start from any node with color 0  
@@ -355,7 +355,7 @@ Core idea:
   
 ---  
   
-### Idea 2: BFS level parity  
+### BFS level parity  
   
 We can interpret bipartite structure as:  
 - all nodes at even distance from start → set A  
@@ -367,10 +367,8 @@ Core idea:
 - check if an edge connects same parity levels → invalid  
   
 ---  
-  
-## Template idea (not full algorithm)  
-  
-### Graph coloring idea  
+
+### Graph coloring
   
 ```cpp  
 int color[N]; // -1 = unvisited, 0 / 1 = two colors
@@ -435,14 +433,10 @@ A graph has an Eulerian path if:
 
 ---
 
-## Key idea (detection)
+## Detection
 
 - degree checking
 - connectivity check (DFS/BFS)
-
----
-
-## C++ detection idea
 
 ```cpp id="eul1"
 bool isEulerian(int n)
@@ -491,18 +485,14 @@ Unlike Eulerian graphs:
 ![hamiltonian graph](images/graph_hamiltonian.png)  
   
 ---  
-  
-## Key idea (intuition)  
-  
+
+## Detection
+ 
 - we try to build a path that visits all nodes  
 - we use backtracking (DFS style)  
 - we mark nodes as visited  
 - we try all possible continuations  
-  
----  
-  
-## C++ detection idea (template)  
-  
+    
 ```cpp id="hamiltonian1"  
 bool vis[N];  
   
